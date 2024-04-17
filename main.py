@@ -1,4 +1,3 @@
-from time import sleep
 from json import loads
 from threading import Timer
 from pushbullet import API
