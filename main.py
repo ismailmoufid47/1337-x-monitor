@@ -24,7 +24,6 @@ latest_post_count = get_post_count()
 
 def check():
     global latest_post_count
-    global interval
     current_time = datetime.now()
     if current_time.hour >= 10:
         try:
